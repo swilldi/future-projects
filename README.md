@@ -63,36 +63,36 @@
 
 Банальные, быстрые, одна технология на проект.
 
-| Папка | Проект | Что делает | Технология | Время | Статус |
-|---|---|---|---|---|---|
-| `currency-test-bench` | Конвертер валют | два поля, курсы с frankfurter.app | Swift Testing, XCTest, моки, снапшоты, UI-тесты, GitHub Actions | 1–2 нед | 📝 |
-| `notes-storage-museum` | Заметки | один протокол, пять хранилищ, замер | файлы, UserDefaults, CoreData, SwiftData, GRDB | 2 нед | 📝 |
-| `image-loader-concurrency` | Загрузчик картинок | сто ссылок, лимит, прогресс, отмена | async/await, акторы, TaskGroup, AsyncStream | 1 нед | 📝 |
-| `string-audio-sandbox` | Аудио-песочница | одна струна, дёргаешь и слышишь | AVAudioEngine, AVAudioSourceNode, Карплус-Стронг | 1 нед | 📝 |
-| `wave-metal-sandbox` | Metal-песочница | волна и частицы на весь экран | MTKView, шейдеры | 1–2 нед | 📝 |
-| `go-url-shortener` | Сокращалка ссылок | короткая ссылка, редирект, счётчик | Go, Postgres, миграции, docker compose | 2 нед | 📝 |
-| `py-facts-collector` | Сборщик фактов | Википедия «в этот день» в JSON | Python, requests | 1 вечер | 📝 |
+| Папка | Проект | Что делает | Технология | Статус |
+|---|---|---|---|---|
+| `currency-test-bench` | Конвертер валют | два поля, курсы с frankfurter.app | Swift Testing, XCTest, моки, снапшоты, UI-тесты, GitHub Actions | 📝 |
+| `notes-storage-museum` | Заметки | один протокол, пять хранилищ, замер | файлы, UserDefaults, CoreData, SwiftData, GRDB | 📝 |
+| `image-loader-concurrency` | Загрузчик картинок | сто ссылок, лимит, прогресс, отмена | async/await, акторы, TaskGroup, AsyncStream | 📝 |
+| `string-audio-sandbox` | Аудио-песочница | одна струна, дёргаешь и слышишь | AVAudioEngine, AVAudioSourceNode, Карплус-Стронг | 📝 |
+| `wave-metal-sandbox` | Metal-песочница | волна и частицы на весь экран | MTKView, шейдеры | 📝 |
+| `go-url-shortener` | Сокращалка ссылок | короткая ссылка, редирект, счётчик | Go, Postgres, миграции, docker compose | 📝 |
+| `py-facts-collector` | Сборщик фактов | Википедия «в этот день» в JSON | Python, requests | 📝 |
 
 ## Тематические петы
 
 Комбинация технологий и тема. «После» означает, что проект зависит от другого.
 
-| Папка | Проект | Что делает | Технологии | После | Время | Статус |
-|---|---|---|---|---|---|---|
-| `tearoff-calendar` | Отрывной календарь | страница с датой и фактом, отрыв, пуш 3 сентября | SwiftUI, жесты, UserNotifications, WidgetKit | | 1 нед | 📝 |
-| `strings-instrument` | Струны | экран из струн, играешь пальцами | AVAudioEngine, Metal, мультитач, CoreHaptics | аудио и Metal песочницы | 1 мес+ | 📝 |
-| `f1-kit` | F1-клиент | SPM-пакет к Jolpica: календарь, результаты | дженерики, повторы, тесты через URLProtocol | | 1–2 нед | 📝 |
-| `f1-menubar` | F1 в менюбаре | отсчёт до сессии, результаты, уведомление | AppKit, NSStatusItem, фон, автозапуск | f1-kit | 2 нед | 📝 |
-| `mathhammer-cli` | Матхаммер | ожидаемый урон отряда по отряду | swift-argument-parser, тесты, Linux в Docker | | 1 нед | 📝 |
-| `go-schedule-bot` | Бот расписания | ротации Splatoon или гонки, напоминания | Go, горутины, каналы, Telegram API, Docker | | 1 нед | 📝 |
-| `go-facts-server` | Сервер фактов | отдаёт факты дня, календарь их тянет | Go, Postgres, синк в Swift-клиенте | go-url-shortener, календарь | 1 нед | 📝 |
-| `wh-roster` | Ростер | армейский список на iPad | CoreData со связями, drag and drop, PDFKit | | 3 нед | 📝 |
-| `platformer-spritekit` | Платформер | один уровень, физика, геймпад | SpriteKit, тайловая карта | | 2 нед | 📝 |
-| `whos-on-network` | Кто в сети | устройства Apple в локальной сети | AppKit, Bonjour, Network.framework | | 1 нед | 📝 |
-| `bookshelf` | Книжная полка | скан штрихкода, обложка, синк через iCloud | VisionKit, Open Library, SwiftData + CloudKit, iOS и macOS | | 2–3 нед | 📝 |
-| `dog-breeds` | Породы | камера на собаку, порода на экране | AVFoundation, Vision, CoreML, Create ML, SwiftData | | 2 нед | 📝 |
-| `walks` | Прогулки | маршрут, графики, живая плашка | MapKit, CoreLocation, HealthKit, Swift Charts, ActivityKit, GRDB | | 3 нед | 📝 |
-| `pixel-board-vapor` | Пиксельная доска | общий холст как r/place | Vapor, WebSocket, Fluent, Docker, iOS-клиент | | 2–3 нед | 📝 |
+| Папка | Проект | Что делает | Технологии | После | Статус |
+|---|---|---|---|---|---|
+| `tearoff-calendar` | Отрывной календарь | страница с датой и фактом, отрыв, пуш 3 сентября | SwiftUI, жесты, UserNotifications, WidgetKit | | 📝 |
+| `strings-instrument` | Струны | экран из струн, играешь пальцами | AVAudioEngine, Metal, мультитач, CoreHaptics | аудио и Metal песочницы | 📝 |
+| `f1-kit` | F1-клиент | SPM-пакет к Jolpica: календарь, результаты | дженерики, повторы, тесты через URLProtocol | | 📝 |
+| `f1-menubar` | F1 в менюбаре | отсчёт до сессии, результаты, уведомление | AppKit, NSStatusItem, фон, автозапуск | f1-kit | 📝 |
+| `mathhammer-cli` | Матхаммер | ожидаемый урон отряда по отряду | swift-argument-parser, тесты, Linux в Docker | | 📝 |
+| `go-schedule-bot` | Бот расписания | ротации Splatoon или гонки, напоминания | Go, горутины, каналы, Telegram API, Docker | | 📝 |
+| `go-facts-server` | Сервер фактов | отдаёт факты дня, календарь их тянет | Go, Postgres, синк в Swift-клиенте | go-url-shortener, календарь | 📝 |
+| `wh-roster` | Ростер | армейский список на iPad | CoreData со связями, drag and drop, PDFKit | | 📝 |
+| `platformer-spritekit` | Платформер | один уровень, физика, геймпад | SpriteKit, тайловая карта | | 📝 |
+| `whos-on-network` | Кто в сети | устройства Apple в локальной сети | AppKit, Bonjour, Network.framework | | 📝 |
+| `bookshelf` | Книжная полка | скан штрихкода, обложка, синк через iCloud | VisionKit, Open Library, SwiftData + CloudKit, iOS и macOS | | 📝 |
+| `dog-breeds` | Породы | камера на собаку, порода на экране | AVFoundation, Vision, CoreML, Create ML, SwiftData | | 📝 |
+| `walks` | Прогулки | маршрут, графики, живая плашка | MapKit, CoreLocation, HealthKit, Swift Charts, ActivityKit, GRDB | | 📝 |
+| `pixel-board-vapor` | Пиксельная доска | общий холст как r/place | Vapor, WebSocket, Fluent, Docker, iOS-клиент | | 📝 |
 
 ## Маршрут
 
